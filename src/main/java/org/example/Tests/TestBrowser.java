@@ -4,6 +4,7 @@ package org.example.Tests;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+@Listeners(MyListener.class)
 public class TestBrowser extends BaseTest {
 
     int a = 0;
